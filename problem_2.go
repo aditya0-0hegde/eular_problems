@@ -16,11 +16,12 @@ func main() {
 	sum := 0
 	i := 1
 	for true {
-		if fibonacci(i) > 4000000 {
+		m := fibonacci(i)
+		if m > 4000000 {
 			break
 		}
-		if fibonacci(i)%2 == 0 {
-			sum += fibonacci(i)
+		if m%2 == 0 {
+			sum += m
 		}
 		i++
 	}
