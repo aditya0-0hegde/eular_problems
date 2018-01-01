@@ -10,7 +10,7 @@ func main() {
 	max := 0
 	for i := 0; i < 987; i++ {
 		prod := 1
-		for j := i; j <= i+13; j++ {
+		for j := i; j <= i+12; j++ {
 			l, _ := strconv.Atoi(string(str[j]))
 			prod = prod * l
 		}
