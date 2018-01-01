@@ -1,6 +1,11 @@
 package main
 import "fmt"
 func gcd(x int, y int) int {
+    if x<y{
+        x = x+y
+        y = x - y
+        x = x - y
+    }
     for y != 0 {
         x, y = y, x%y
     }
