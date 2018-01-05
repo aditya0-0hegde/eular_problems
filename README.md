@@ -1,2 +1,3 @@
-# eular problems solved in golang
-Not the most efficient solutions but they work well
+# Euler problems solved in golang
+### PROBLEMS DONE: _*12*_
+All the solutions here only use the inbuilt libraries and try to adhere to basic mathematical concepts, compromising computation efficiency at instances.
